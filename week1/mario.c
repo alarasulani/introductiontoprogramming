@@ -27,10 +27,10 @@ int main(void)
     //       Keep re-prompting until height is between 1 and 8 (inclusive).
     do
     {
-        // TODO: Get an integer from the user with prompt "Height: "
+         height = get_int("height: ");
 
     }
-    while (/* TODO: condition to keep looping */ false);
+    while (height < 1 || height > 8);
 
     // TODO: Use a for loop to iterate over each row (1 through height).
     for (int row = 1; row <= height; row++)

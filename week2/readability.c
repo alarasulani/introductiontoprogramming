@@ -1,3 +1,4 @@
+
 // readability.c
 // CS50x - Week 2, Problem Set 2
 //
